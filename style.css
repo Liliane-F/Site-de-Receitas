@@ -1,0 +1,39 @@
+body {
+    background: rgb(245, 178, 189);
+    color: rgb(226, 74, 74);
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    }
+
+p {
+    background-color: rgba(245, 240, 239, 0.342);
+    font-size: 33px;
+    margin-bottom: 100px
+    }
+h1 {
+    background-color: rgba(245, 240, 239, 0.342);
+    font-size: 35px;
+    margin-top: 60px;
+    
+    
+ 
+}
+h2 {
+    background-color: rgba(245, 240, 239, 0.342);
+    font-size: 35px;
+}
+
+button {
+
+    background-color: rgb(245, 241, 243);
+    color: rgb(238, 57, 87);
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 15px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px rgba(185, 38, 38, 0.24);}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
+</head>
+	
+<body>
+	<header>
+		<nav>
+            <ul>
+                
+            <button class="botões iniciais">
+                <a href="index.html" class= "Botão Inicial">Home</a>
+            </button>
+            <button class="botões iniciais">
+                <a href="receita.html" title="Receita">Receita</a>
+            </button>
+            <button class="botões iniciais">
+                <a href="video.html" title="Vídeo">Vídeo</a>
+            </button>
+            <button class="botões iniciais">
+                <a href="contato.html"title="Contato">Contato</a>
+            </button>
+            
+            </ul> 
+		</nav>
+	</header>
+		<section>
+			<img src="imagens/logo.png" alt="imagem da logomarca">
+		</section>
+<section>
+        <form action="mailto:liliane@outlook.com" method="site de receitas">
+		
+			<input type="hidden" id="identificador" name="identificador" value="67" />
+		
+                <h2>
+				<legend>Para se cadastrar e enviar sugestões de receitas, preencha os dados abaixo:</legend>
+				<label for="nome">Nome:</label>
+				<input type="text" name="Nome" id="nome" />
+				<br />
+				
+				<label for="sobrenome">Sobrenome:</label>
+				<input type="text" name="sobrenome" id="sobrenome" />
+				
+				<br />
+				<label for="dataNascimento">Data Nasc:</label>
+				<input type="text" name="dataNascimento" id="dataNascimento" />
+
+				<br />
+				<label for="senha">Senha:</label>			
+				<input type="password" name="senha" id="senha" />
+				
+				<br />
+				<label for="sexo">Sexo:</label>
+				<input type="radio" name="sexo" value="F" id="sexoFeminino" /><label for="sexoFeminino">Feminino</label>
+				<input type="radio" name="sexo" value="M" id="sexoMasculino" /><label for="sexoMasculino">Masculino</label>
+
+				<br />
+				<label for="contato">Contato:</label>
+				<input type="checkbox" name="telefone" id="telefone" /><label for="telefone">Telefone</label>
+				<input type="checkbox" name="email" id="email" /><label for="email">E-mail</label>
+				
+				<br />
+				<label for="foto">Foto:</label>
+				<input type="file" name="foto" id="foto" />	
+
+				<br />
+				<label for="descricaoArquivo">Mensagem:</label>
+				<textarea name="descricaoArquivo" cols="60" rows="2" id="descricaoArquivo"></textarea>
+				
+				<br />
+				<label for="interesse">Interesse:</label>
+				<select name="interesse" id="interesse">
+					<option value="gastronomia">Doces</option>
+					<option value="gastronomia">Salgados</option>
+				</select>
+
+				<br />			
+				<input name="btnEnvio" type="submit" value="Enviar" />			
+		
+				&nbsp;			
+				<input name="btnReset" type="reset" value="Limpar" />
+            </h2>
+			
+		</form>
+</section>
+<footer>
+    <p>Posted by Liliane Fontinele</br>
+    Entre em contato em: <a href="liliane.fontinele@outlook.com">
+    liliane.fontinele@outlook.com</a>.</p>
+</footer>
+</body>
+
+</html>
